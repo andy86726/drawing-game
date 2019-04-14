@@ -59,9 +59,9 @@
             var max = Number(input[1].value);
             if (isNaN(parseFloat(input[0].value)) == false && isNaN(parseFloat(input[1].value)) == false) {
                 if (min < max) {
-                    var random_Number = Math.floor(Math.random() * (min - max)) + min;
+                    var random_Number = (Math.floor(Math.random() * (min - max))) + min;
                     drawing_history.textContent = drawing_history.textContent + random_Number + " ";
-                    document.getElementById("text_style").textContent=random_Number;
+                    document.getElementById("text_style").textContent = random_Number;
                 }
                 else {
                     alert("最大號碼要大於最小號碼");
