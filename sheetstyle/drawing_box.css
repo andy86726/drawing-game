@@ -1,0 +1,50 @@
+.body_background {
+  background-color: black;
+}
+
+.container {
+  width: 40%;
+}
+
+.input {
+  height: 30px;
+  width: 100px;
+  color: #6c6c6c;
+}
+
+.input_text {
+  color: #7b7b7b;
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+
+.drawing_history {
+  text-align: center;
+  margin: 50px 0;
+  color: #7b7b7b;
+  font-size: 20px;
+}
+
+.random_img {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(#272727), to(#7b7b7b));
+  background: linear-gradient(#272727, #7b7b7b);
+  border: 1px solid #9d9d9d;
+  margin-bottom: 30px;
+}
+
+.button {
+  margin: 0 auto;
+}
+
+#text_style {
+  color: white;
+  font-size: 180px;
+  text-align: center;
+  text-shadow: 0 0 0.2em silver;
+  -webkit-text-stroke: 2px black;
+}
+/*# sourceMappingURL=drawing_box.css.map */
